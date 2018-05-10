@@ -14,6 +14,10 @@ public abstract class Enemy {
         healthPoints -= 1;
     }
 
+    public String getName(){
+        return name;
+    }
+
 
 }
 
